@@ -27,6 +27,17 @@ body{
     <td style="vertical-align: top;text-align: left;width:25vh;">
   
 <p>Yeet</p>
+<ul>
+{% for category in site.categories %}
+  <li><a name="{{ category | first }}">{{ category | first }}</a>
+    <ul>
+    {% for post in category.last %}
+      <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+    </ul>
+  </li>
+{% endfor %}
+</ul>
     
     </td>
     <td style="vertical-align: top;text-align: left;overflow-y: scroll;">{{ content }}</td>
