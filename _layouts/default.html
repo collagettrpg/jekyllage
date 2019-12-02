@@ -24,7 +24,7 @@ body{
     <th style="width:100vw;" colspan="2"><a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></th>
   </tr>
   <tr style="height:calc(100vh - 85px);">
-    <td style="vertical-align: top;text-align: left;">
+    <td style="vertical-align: top;text-align: left;width:25vh;">
     
             <ul>
   {% for post in site.posts %}
@@ -32,6 +32,12 @@ body{
       <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
     </li>
   {% endfor %}
+  
+  {% for category in site.categories %}
+    <li><a href="{{category.url}}"><strong>{{category|first}}</strong></a></li>
+{% endfor %}
+
+
 </ul>
     
     </td>

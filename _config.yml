@@ -1,2 +1,3 @@
 name: Collage Web Portal
 baseurl: /jekyllage
+permalink: /:categories/:title/
