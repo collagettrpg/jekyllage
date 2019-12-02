@@ -30,7 +30,7 @@ body{
             <ul>
   {% for post in site.posts %}
     <li width="100%">
-      <a href="{{ page.url }}">{{ page.title }}</a>
+      <a href="{{ site.baseurl }}{{ page.url }}">{{ page.title }}</a>
     </li>
   {% endfor %}
 </ul>
