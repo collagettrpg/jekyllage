@@ -16,7 +16,7 @@
     <th style="width:25vw;"><a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></th>
     <th style="width:75vw;" id="urlhere"><a href="{{ post.url }}">{{ post.title }}</a></th>
   </tr>
-  <tr style="height:calc(100vh - 45px);">
+  <tr style="height:calc(100vh - 85px);">
     <td style="vertical-align: top;text-align: left;">
     
             <ul>
@@ -26,10 +26,12 @@
     </li>
   {% endfor %}
 </ul>
-<p><small>Hosted on GitHub Pages &mdash; Theme based on Minimal by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
     
     </td>
     <td style="vertical-align: top;text-align: left;overflow: scroll;">{{ content }}</td>
+  </tr>
+  <tr>
+  <td colspan="2"><p><small>Hosted on GitHub Pages &mdash; Theme based on Minimal by <a href="https://github.com/orderedlist">orderedlist</a></small></p></td>
   </tr>
 
 </table>
