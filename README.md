@@ -1,9 +1,4 @@
----
-layout: default
-category: paper
-title:  "Yeetles!"
----
-## Welcome to GitHub Paged!
+## Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/collagettrpg/jekyllage/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
