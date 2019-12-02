@@ -1,6 +1,6 @@
 ---
 layout: default
-title:  "Yeetles!"
+title:  "Beetles!"
 ---
 
 # Beetles!
